@@ -12,6 +12,7 @@ import { defaultVariants } from 'assets/animations';
 const useStyles = createUseStyles({
   header: {
     width: '100%',
+    height: '100vh',
     position: 'relative',
     backgroundColor: colors.white,
   },
@@ -65,8 +66,8 @@ const useStyles = createUseStyles({
   },
   bannerImg: {
     position: 'absolute',
-    maxHeight: 300,
-    top: 165,
+    maxHeight: 275,
+    top: 200,
     right: 175,
   },
   imgLeft: {
@@ -178,17 +179,16 @@ const bannerSpanVariants = {
 function Banner() {
   const classes = useStyles();
   return (
-    <div className={classes.header}>
+    <div id="header" className={classes.header}>
       <motion.nav
         className={classes.nav}
         variants={defaultVariants}
         initial="hidden"
         animate="visibleDelayed"
       >
-        <h1 className={classes.logo}>FitBish</h1>
+        <h1 className={classes.logo}>FitWatch</h1>
         <div>
-          <a href="#heart" className={classes.navLink}>Heart</a>
-          <a href="#sleep" className={classes.navLink}>Sleep</a>
+          <a href="#footer" className={classes.navLink}>Contact</a>
         </div>
       </motion.nav>
       <motion.div
