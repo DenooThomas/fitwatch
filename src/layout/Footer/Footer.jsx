@@ -10,6 +10,7 @@ const useStyles = createUseStyles({
   footer: {
     ...flexRow('wrap', 'space-between', 'space-between'),
     marginTop: 150,
+    paddingBottom: 35,
   },
   halfContWrapper: {
     ...flexRow('nowrap', 'space-between', 'center'),
