@@ -39,7 +39,6 @@ const useStyles = createUseStyles({
     height: 400,
     padding: 40,
     marginTop: 75,
-    // backgroundColor: '#414F6A',
     background: 'linear-gradient(24deg, rgba(78,94,126,1) 5%, rgba(65,79,106,1) 65%)',
     boxShadow: '4px 4px 5px 0px rgba(0,0,0,0.25)',
     borderRadius: '1rem',
@@ -235,7 +234,7 @@ function Heart() {
           <div className={classes.rightCont}>
             <div>
               <span className={classes.bold}>Full breakdown</span>
-              <span>Get access to what`&apos;`s affecting your score</span>
+              <span>Get access to what is affecting your score</span>
               <button type="button">See details</button>
             </div>
           </div>
