@@ -234,7 +234,7 @@ function Heart() {
           <div className={classes.rightCont}>
             <div>
               <span className={classes.bold}>Full breakdown</span>
-              <span>Get access to what is affecting your score</span>
+              <span>Get access to what&apos;s affecting your score</span>
               <button type="button">See details</button>
             </div>
           </div>
