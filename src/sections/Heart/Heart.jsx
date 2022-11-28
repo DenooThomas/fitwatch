@@ -195,7 +195,7 @@ function Heart() {
         />
         <div className={classes.scoreCont}>
           <div className={classes.leftCont}>
-            <span>Today`&apos;`s score</span>
+            <span>Today&apos;s score</span>
             <div className={classes.circle}>
               <svg viewBox="0 0 196 196" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <motion.circle
@@ -246,7 +246,7 @@ function Heart() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.4 }}
         >
-          <motion.h2 className={`${classes.title} ${classes.white}`} variants={titleRightVariants}>Manage your body’s response to stress</motion.h2>
+          <motion.h2 className={`${classes.title} ${classes.white}`} variants={titleRightVariants}>Manage your body&apos;s response to stress</motion.h2>
           <motion.p className={`${classes.text} ${classes.white}`} variants={defaultVariants}>Learn how an on-wrist EDA sensor and a touch of the palm on Fitbit Sense can help you understand your stress.</motion.p>
           <motion.a href="/" className={`${classes.link} ${classes.white}`} variants={defaultVariants}>See how it works --</motion.a>
         </motion.div>
