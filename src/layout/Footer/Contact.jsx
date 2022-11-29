@@ -23,6 +23,7 @@ const useStyles = createUseStyles({
       },
       '& input': {
         border: 'none',
+        backgroundColor: 'inherit',
         borderBottom: `1px solid ${colors.blue}`,
         fontSize: '1rem',
         padding: 5,
